@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.fixwidth{
+    width: 1000px;
+    margin: auto;
+}
+.main-menu{
+    background: #000;
+}
+.main-menu ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: -4px;
+    transition: .4s;
+    font-size: 20px;
+}
+.main-menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    
+}
+.main-menu ul li{
+    position: relative;
+}
+.main-menu ul li ul {
+	position: absolute;
+	top: 132%;
+	left: 0;
+	width: 142px;
+	visibility: hidden;
+	opacity: 0;
+    background: #ddd;
+    transition: 1s;
+    transform: translateY(40px);
+}
+.main-menu ul li ul li{
+    display: block;
+    transition: .5s;
+}
+.main-menu ul li ul li a{
+    color: black;
+}
+.main-menu ul li ul{
+
+}
+.main-menu ul li ul li ul{
+	left: 100%;
+	top: 100%;
+	background: #fff;
+	width: 250px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.main-menu ul li ul li ul li{ 
+    display: block;
+ }
+/* .main-menu ul li ul li:hover{
+    opacity: 1;
+    visibility: visible;
+} */
+/* slider-section */
+.slider-section{
+    text-align: center;
+    background-image: url(https://jssors8.azureedge.net/demos/image-slider/img/px-action-athlete-athletes-848618-image.jpg);
+    padding: 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider-section h2 {
+	margin-bottom: 30px;
+	background: #ddd;
+}
+ .slider-section a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 10px 15px;
+	background: red;
+	font-size: 20px;
+	border-radius: 6px;
+	color: #fff;
+}
+/* footer-section */ 
+.footer-section{
+    text-align: center;
+    background: #111;
+    color: #fff;
+    
+}
+.footer-section {
+	text-align: center;
+	padding: 20px 0;
+}
+.footer-bottom{
+    margin-top: 10px;
+}
+.footer-bottom span {
+
+	padding: 0 5px;
+}
